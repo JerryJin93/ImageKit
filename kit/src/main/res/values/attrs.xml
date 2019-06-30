@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CrescentImageView">
+        <attr name="crescentHeightRatio" format="float"/>
+        <attr name="crescentOffset" format="dimension"/>
+        <attr name="crescentDirection" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="GifImageView">
+        <attr name="gifSrc" format="reference"/>
+        <attr name="gifSpped" format="float"/>
+    </declare-styleable>
+</resources>
